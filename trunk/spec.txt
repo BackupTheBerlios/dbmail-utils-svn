@@ -1,0 +1,33 @@
+                      DBMail Utils Specification
+
+                          September 5, 2004
+
+                                  by
+
+                    Dan Weber and Adam S. Garside
+
+
+Contents
+========
+
+ 1  Programs
+    1.1  DBMail Grep
+
+
+
+1  Programs
+***********
+
+
+1.1  DBMail Grep
+================
+
+The purpose of this program is to create a grep for dbmail. Features
+include feeding regex to find mail matching [regexp] or search by
+dates, and mailboxes. As well as by groups and message headers.
+
+The output of dbmail grep would supply mbox format so one could use
+userland tools with his mail.
+
+
+

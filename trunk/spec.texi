@@ -1,0 +1,55 @@
+\input texinfo @c-*-texinfo-*-
+@c %**start of header
+@setfilename spec.info
+@settitle DBMail Utils Specification
+@c %**end of header
+@titlepage
+@sp 1
+@center @titlefont{DBMail Utils Specification}
+@sp 1
+@center September 5, 2004
+@sp 1
+@sp 10
+@center by
+@sp 1
+@center Dan Weber and Adam S. Garside
+@end titlepage
+@ifinfo
+@node Top, Programs, (dir), (dir)
+@center DBMail Utils Specification @*
+@center September 5, 2004 @*
+@sp 1
+@center by
+@sp 1
+@center Dan Weber and Adam S. Garside @*
+@center 
+@sp 1
+Contents
+
+@menu
+* Programs::
+@end menu
+@end ifinfo
+
+@node Programs, DBMail Grep, Top, Top
+@chapter Programs
+@menu
+* DBMail Grep::
+@end menu
+
+@node DBMail Grep, , Programs, Programs
+@section DBMail Grep
+The purpose of this program is to create a grep for dbmail. Features
+include feeding regex to find mail matching [regexp] or search by
+dates, and mailboxes. As well as by groups and message headers.
+
+The output of dbmail grep would supply mbox format so one could use
+userland tools with his mail.
+
+@iftex
+@shortcontents
+@contents
+@end iftex
+@bye
+
+
